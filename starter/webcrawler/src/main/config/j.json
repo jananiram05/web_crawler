@@ -1,0 +1,19 @@
+{
+  startPages: [
+    "http://example.com",
+    "http://example.com/foo"
+  ],
+  ignoredUrls: [
+    "http://example.com/"
+  ],
+  ignoredWords: [
+    "^.{1,3}$"
+  ],
+  parallelism: 4,
+  implementationOverride: "fully.qualified.OverrideClass",
+  maxDepth: 100,
+  timeoutSeconds: 10,
+  popularWordCount: 5,
+  profileOutputPath: "profileOutput.txt",
+  resultPath: "resultPath.json"
+}
